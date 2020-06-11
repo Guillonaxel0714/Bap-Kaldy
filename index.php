@@ -98,122 +98,74 @@
                 </div>
             </div>
         </div>
-    </section>
-    <div style="display: flex; flex-direction: row; justify-content: center;">
-        <img src="assets/img/borderlogo.png" style="margin-top: -3%;">
+        <div class="titre1">
+        <h2>Comment ça marche ?</h2>
     </div>
-    <section>
-        <div class="container" style="display: flex; height: 12em; justify-content: center;
-            align-items: flex-end;">
-            <div class="textpres" style="display: flex;
-                font-size: xx-large;
-                font-family: 'Fira Sans', sans-serif;
-                color: #175A75;">
-                <p>Comment se passe la formation ?</p>
+    <section class="section1">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" style="display: flex; padding-left: 10%;">
+                    <img class="ligne-evo" src="assets/img/lignec.png" alt="">
+                    <div class="text-description">
+                        <div class="container-text">
+                            <p class="sous-titre">Début de la formation</p>
+                            <p class="petit-text">Accès à 10h de vidéos à voir en illimité</p>
+                        </div>
+                        <div class="container-text">
+                            <p class="sous-titre">Suivi actif de la formation</p>
+                            <p class="petit-text">Avec mise en application des connaissance et messagerie instantanée avec Régis Kaldy</p>
+                        </div>
+                        <div class="container-text">
+                            <p class="sous-titre">Fin de la formation</p>
+                            <p class="petit-text">Évaluation finale des connaissances avec application aux côtés de Régis Kaldy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" illustrationimg col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <img src="assets/img/illumassage.png" alt="">
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div>
-            <div class="row" style="margin-left: 0px; margin-right: 0px; height: 50em">
-                <div class="col"
-                    style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-                    <div style="width: 30%; display: flex; justify-content: center;">
-                        <img src="assets/img/lignec.png">
-                    </div>
-                    <div
-                        style="display: flex; flex-direction: column; justify-content: space-around; height: 100%; width: 50%;">
-                        <div style="display: flex; flex-direction: column;">
-                            <p
-                                style="font-family: 'Fira Sans', sans-serif; font-weight: 700; color:#227090; font-size: 190%;">
-                                Début de la formation</p>
-                            <p style="font-family: 'Fira Sans', sans-serif; color:#227090; font-size: 125%;">Accès à 10h
-                                de vidéos à voir en illimité </p>
-                        </div>
-
-                        <div style="display: flex; flex-direction: column;">
-                            <p
-                                style="font-family: 'Fira Sans', sans-serif; font-weight: 700; color:#227090;font-size: 190%;">
-                                Suivi actif de la formation</p>
-                            <p style="font-family: 'Fira Sans', sans-serif; color:#227090; font-size: 125%;">Avec mise
-                                en application des connaissance
-                                et messagerie instantanée avec Régis Kaldy </p>
-                        </div>
-
-                        <div style="display: flex; flex-direction: column;">
-                            <p
-                                style="font-family: 'Fira Sans', sans-serif; font-weight: 700; color:#227090;font-size: 190%;">
-                                Fin de la formation</p>
-                            <p style="font-family: 'Fira Sans', sans-serif; color:#227090; font-size: 125%;">Évaluation
-                                finale des connaissances avec
-                                application aux côtés de Régis Kaldy </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col" style="display: flex; flex-direction: column; justify-content: center;">
-                    <div style="display: flex; flex-direction: row; justify-content: center;">
-                        <img src="assets/img/illumassage.png">
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <div style="display: flex; flex-direction: row; justify-content: center; margin-bottom: -3%;">
-        <img src="assets/img/borderlogo.png"> </div>
-
-    <section style="display: flex; justify-content: center; background-color: #EFEFEF;">
-
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 30em; width: 50%;">
-            <p
-                style="font-family: 'Fira Sans', sans-serif; font-weight: 700; color:#227090; font-size: 190%; text-align: center; margin-top: 10%">
-                Combien de temps dure la formation ?</p>
-            <div style="display: flex; flex-direction: row; justify-content: space-around;">
-                <p style="font-family: 'Fira Sans', sans-serif; color:#227090; font-size: 125%; padding: 2em;">Lorem
-                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                </p>
-                <p style="font-family: 'Fira Sans', sans-serif; color:#227090; font-size: 125%; padding: 2em;">Lorem
+    <section class="section2">
+        <div class="titre2">
+            <p class="sous-titre">Combien de temps dure la formation ?</p>
+        </div>
+        <div class="row" style="justify-content: center;">
+            <div class="container-text2 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                <p class="petit-text">Lorem
                     ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                     et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
                 </p>
             </div>
-
+            <div class="container-text2 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                <p class="petit-text">Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                </p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div style="display: flex; flex-direction: row; justify-content: center; height: 30em; width: 100%;">
-            <div
-                style="display: flex; flex-direction: column; width: 50%; justify-content: center; align-items: center;">
-                <div>
-                    <p
-                        style="font-family: 'Fira Sans', sans-serif; font-weight: 700; color:#227090; font-size: 190%; text-align: center;">
-                        Apercu de la formation</p>
-                </div>
-                <div style="width: 60%;">
-                    <p style="font-family: 'Fira Sans', sans-serif; color:#227090; font-size: 125%;">Lorem ipsum dolor
-                        sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                        labore et dolore magna aliquyam erat, sed diam</p>
-                </div>
-                <div><button class="buttonforma">Acheter la formation</button></div>
+    <section class="section3">
+        <div class="row" style="justify-content: center;">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <p class="sous-titre">Aperçu de la formation</p>
+                <p class="petit-text" style="padding-left: 15%; padding-right: 15%;">Lorem ipsum dolor
+                    sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam
+                </p>
+                <a href="Pages/panier.php"><button class="buttonforma">Acheter la formation</button></a>
             </div>
-            <div
-                style="display: flex; flex-direction: column; width: 50%; justify-content: center; align-items: center;">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <video width="640" height="360" controls>
-                    <source src="movie.mp4" type="video/mp4">
-
-                    Your browser does not support the video tag.
-                </video>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
             </div>
-
         </div>
-
-
     </section>
 
     <section>
