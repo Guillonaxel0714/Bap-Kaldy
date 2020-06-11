@@ -1,0 +1,265 @@
+
+.subtext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.profil{
+    text-align: center;
+    color: #175A75;
+    margin-top: 3%;
+
+}
+
+.title{
+    font-size: 45px;
+    margin-top: 15%;
+    text-align: center;
+    color: #175A75;
+}
+
+.name{
+    font-size: 28px;
+}
+
+.description{
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    color: #175A75;
+    font-size: 20px;
+}
+
+.section-txt{
+    margin-top: 5%;
+}
+
+.title-page{
+    font-family: 'Fira Sans', sans-serif;
+    color:#175A75; 
+    font-size: 200%;
+}
+
+.title-profil{
+    font-family: 'Fira Sans', sans-serif;
+    color:white; 
+    font-size: 200%;
+}
+
+
+.section-btn{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #175A75;
+    font-size: 22px;
+    margin-top: 8%;
+}
+
+.section-question{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.btn-faq{
+    background-color: white;
+    color: #3587a0;
+    border-radius: 30px;
+    border: 2px solid #3587a0;
+    padding: 10px 20px;
+}
+
+.div-btn-deco{
+    text-align: center;
+}
+
+.buttondeco{
+    margin-top: 10%;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 15px;
+    background-color: white;
+    color: #175A75;
+    border: none;
+}
+
+.buttondeco:hover{
+    color: red;
+}
+
+.section-btn p{
+    margin-top: 1%;
+    color: #707070;
+    font-size: 16px;
+}
+
+.title-question{
+    color: white;
+    font-size: 26px;
+}
+
+.borderlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -13.5%;
+}
+
+#validationTextarea{
+    width: 50%;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 426px) {
+
+    .title{
+        font-size: 35px;
+        margin-top: 20%;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .profil{
+        margin-top: 15%;
+    }
+    .section-txt{
+        margin-top: 10%;
+    }
+    .title-page{
+        margin-top: 15%;
+        font-size: 180%;
+    }
+    .title-profil{
+        margin-top: 20%;
+        font-size: 180%;
+    }
+    .description{
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .btn-faq{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .borderlogo{
+        margin-bottom: -22.5%;
+    }
+    .buttondeco{
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    #validationTextarea{
+        width: 80%;
+    }
+
+  }
+
+  @media screen and (min-width: 427px) and (max-width: 768px) {
+
+    .description{
+        width: 45%;
+        text-align: center;
+    }
+    .borderlogo{
+        margin-bottom: -16.5%;
+    }
+    .buttondeco{
+        margin-top: 15%;
+    }
+    #validationTextarea{
+        width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .borderlogo{
+        margin-bottom: -15%;
+    }
+    .title-page{
+        margin-top: 10%;
+    }
+    .title-profil{
+        margin-top: 25%;
+    }
+  }
+
+
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+      .borderlogo{
+        margin-bottom: -13.5%;
+      }
+      .title-profil{
+        margin-top: 15%;
+    }
+  }
+
+
+/* ------------------------------------------------------------------FOOTER------------------------------------------------------------------- */
+
+
+
+footer{
+    width: 100%;
+    background-color: #3587a0;
+    color: white;
+    margin-top: 10%;
+}
+
+hr{
+    background-color: white;
+    width: 60%;
+    margin-right: 50%;
+}
+.icone img{
+    width: 16px;
+    height: 16px;
+    margin-top: 5px; 
+}
+
+.contact{
+    margin-left: 5%;
+}
+
+.icone{
+    display: flex;
+}
+
+
+.logo{
+    text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 320px){
+    .info-footer{
+        margin-top: 15%;
+        padding-left: 25%;
+    }
+    .logofooter{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 426px){
+    .info-footer{
+        padding-left: 32%;
+        margin-top: 10%;
+    }
+    .logofooter{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+
+    .info-footer{
+        margin-top: 10%;
+        padding-left: 5%;
+        
+    }
+    .logofooter{
+        margin-top: 5%;
+    }
+  }
